@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 24px;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   min-width: 100vw;
   min-height: 100vh;
 }
@@ -42,8 +42,7 @@ body {
 .primary-button {
   background-color: #0079bf;
   border: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   color: #fff;
   height: 32px;
   min-height: 32px;
@@ -58,13 +57,8 @@ body {
 }
 
 .add-column {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+flex-direction: column;
   max-width: 272px;
   width: 100%;
   margin: 0 4px;
@@ -82,8 +76,7 @@ body {
 
 .add-column .add-form input {
   background-color: #fff;
-  -webkit-box-shadow: inset 0 0 0 2px #0079bf;
-          box-shadow: inset 0 0 0 2px #0079bf;
+  box-shadow: inset 0 0 0 2px #0079bf;
   display: block;
   margin: 0;
   width: 100%;
@@ -94,8 +87,6 @@ body {
 }
 
 .add-column .form-buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-top: 4px;
 }
@@ -108,8 +99,7 @@ body {
 .add-column .form-buttons .add-column-button {
   background-color: #0079bf;
   border: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   color: #fff;
   height: 32px;
   min-height: 32px;
@@ -133,7 +123,6 @@ body {
   width: 100%;
   font-size: 14px;
   cursor: pointer;
-  -webkit-transition: backround-color 0.3s ease-in-out;
   transition: backround-color 0.3s ease-in-out;
 }
 
@@ -151,8 +140,6 @@ body {
   padding: 8px 12px;
   width: 272px;
   margin: 0 4px;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
   position: relative;
 }
@@ -211,30 +198,20 @@ body {
 }
 
 .form-add-card .card-buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-top: 8px;
 }
 
 .form-cancel-card-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 28px;
   height: 28px;
   cursor: pointer;
 }
 
 .columns {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-right: 4px;
 }
@@ -243,24 +220,15 @@ body {
   position: absolute;
   right: 12px;
   top: 6px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   color: #5e6c84;
   width: 20px;
   height: 20px;
   border-radius: 3px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+ user-select: none;
 }
 
 .column-options-button:hover {
@@ -280,12 +248,8 @@ body {
   left: 88%;
   top: 35px;
   width: 180px;
-  -webkit-box-shadow: 0 0 4px #ccc;
-          box-shadow: 0 0 4px #ccc;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  box-shadow: 0 0 4px #ccc;
+  user-select: none;
   z-index: 1;
 }
 
@@ -296,8 +260,6 @@ body {
 }
 
 .options-colors {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-top: 4px;
 }
